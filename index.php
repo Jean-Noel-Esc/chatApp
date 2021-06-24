@@ -13,7 +13,7 @@
         <section class="form signup">
             <header>Realtime Chat App</header>
             <form action="#" enctype="multipart/form-data">
-                <div class="error-txt"><?php if (isset($error)){echo $error}?> </div>
+                <div class="error-txt"></div>
                 <div class="name-details">
                     <div class="field input">
                         <label>First name</label>
@@ -35,7 +35,7 @@
                 </div>
                 <div class="field image">
                     <label>Select image</label>
-                    <input type="file" name="image">   
+                    <input type="file" name="image" required>   
                 </div>
                 <div class="field button">
                     <input type="submit" value="Continue to chat">   
