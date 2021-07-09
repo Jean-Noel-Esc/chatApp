@@ -33,7 +33,7 @@ body{
 .form form{
     margin: 20px 0;
 }
-.form form .error-txt{
+.form form .error-text{
     color: #721c24;
     background: #f8d7da;
     padding: 8px 10px;
